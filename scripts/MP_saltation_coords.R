@@ -9,7 +9,7 @@
 
 #data inout#####################################################################
 #read text file
-data = read.csv('data/track 1.txt',  
+data = read.csv('example_trajectory/track 1.txt',  
                 sep =' ',                                                       # specify tab-separate                                       
                 col.names = c('x', 'y'),                                        # name columns                                        
                 na.strings = 'null')                                            #strip NA rows
