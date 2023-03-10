@@ -7,7 +7,7 @@ Author: James Lofty
 This repository includes the following :
 
 data
-- all results from experimental tests as average values  
+- all results from microplastic and amber saltation experimental tests as average values  
 
 example trajcetcory 
 - video of a 5mm spherical PA microplastic saltating on a 1.86mm sediment bed at u*  = 0.0221
