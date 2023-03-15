@@ -10,7 +10,7 @@ data
 - all results from microplastic and amber saltation experimental tests as average values  
 
 example trajcetcory 
-- video of a 5mm spherical PA microplastic saltating on a 1.86mm sediment bed at u*  = 0.0221
+- video of a saltating 5mm spherical PA microplastic
 - corresponding coordinates of PA microplastic 
 
 scripts
