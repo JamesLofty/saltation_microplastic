@@ -89,6 +89,8 @@ Uin = ((data$x[troughs]-data$x[troughs-1])/(1/fs)/1000)                         
 Uout = ((data$x[troughs+1]-data$x[troughs])/(1/fs)/1000)                        #outwards streamwise collision velocity
 Win = ((data$y[troughs]-data$y[troughs-1])/(1/fs)/1000)                         #inwards vertical collision velocity
 Wout = ((data$y[troughs+1]-data$y[troughs])/(1/fs)/1000)                        #outwards streamwise collision velocity
+Lp1 = (data$x[peaks]-data$x[troughs][-length(data$x[troughs])])                 #rising limb *
+Lp2 = Lp - Lp1                                                                  #falling limb
 
 # Store raw results in a dataframe
 result = data.frame(
@@ -100,7 +102,9 @@ result = data.frame(
   Uin = Uin[-length(Uin)],
   Uout = Uout[-length(Uout)],
   Win = abs(Win[-length(Win)]),
-  Wout = Wout[-length(Wout)]
+  Wout = Wout[-length(Wout)], 
+  Lp1,
+  Lp2
 )
 
 # bind collision angles to raw results
