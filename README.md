@@ -7,7 +7,7 @@ Author: James Lofty
 This repository includes the following :
 
 data
-- all results from microplastic and amber saltation experimental tests as average values  
+- all results from microplastic and amber saltation experimental tests as average values (average particle charateristic per flow condition)
 
 example trajcetcory 
 - video of a saltating 5mm spherical PA microplastic
