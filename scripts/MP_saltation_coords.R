@@ -2,12 +2,12 @@
 #
 #
 #Author: James Lofty
-#script characterises the trajectory and collision charateristcs of spherical microplastic particles based on coordinates (x,y) generated from a high speed camera extracted from the example video
+#script characterises the trajectory and collision charateristcs of spherical microplastic particles based on coordinates (x,z) generated from a high speed camera extracted from the example video
 #
 #
 #
 
-#data inout#####################################################################
+#data input#####################################################################
 #read text file
 data = read.csv('example_trajectory/track 1.txt',  
                 sep =' ',                                                       # specify tab-separate                                       
