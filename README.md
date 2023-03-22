@@ -1,6 +1,6 @@
 # saltation_microplastic
 
-Codes and data for the analysis of experimental tests on the bed load saltation motion of spherical microplastic particles
+Codes and data for the analysis of experimental tests on the bed load saltation motion of spherical microplastic and natural sediment particles
 
 Author: James Lofty
 
